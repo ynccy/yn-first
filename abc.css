@@ -1,0 +1,44 @@
+body{
+	font-size: 2rem;
+	width: 800px;
+	margin: 0 auto;
+	min-height: 200vh;
+	display: grid;
+	outline: solid 1px #0000ff;
+	grid-template:
+	"header header header header header" 500px
+	"...... ...... ...... ...... ......"200px
+	"left   ...... center ...... right"500px
+	"...... ...... ...... ...... ......"200px
+	"footer footer footer footer footer"500px
+	/ 200px  100px 200px  100px  200px;
+
+
+
+}
+header{
+	grid-area: header;
+	outline: solid 1px #0000ff;
+
+}
+main{
+	grid-area: center;
+	outline: solid 1px #0000ff;
+}
+nav{
+	grid-area: left;
+	outline: solid 1px #0000ff;
+
+
+}
+aside{
+	grid-area: right;
+	outline: solid 1px #0000ff;
+}
+footer{
+	grid-area: footer;
+	outline: solid 1px #0000ff;
+}
+@media(min-width: 600px){
+
+}
